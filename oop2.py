@@ -197,10 +197,3 @@ def grades_lecturers(lecturer_list, course):
     else:
         return f'round({average_rating / b}, 1)'
 
-print(f'Средняя оценка студентов по курсу "Git": {grades_students(students_list, "Git")}')
-print(f'Средняя оценка студентов по курсу "Java": {grades_students(students_list, "Java")}')
-print(f'Средняя оценка студентов по курсу "Python": {grades_students(students_list, "Python")}')
-
-print(f'Средняя оценка лекторов по курсу "Git": {grades_lecturers(lecturer_list, "Git")}')
-print(f'Средняя оценка лекторов по курсу "Java": {grades_lecturers(lecturer_list, "Java")}')
-print(f'Средняя оценка лекторов по курсу "Python": {grades_lecturers(lecturer_list, "Python")}')
